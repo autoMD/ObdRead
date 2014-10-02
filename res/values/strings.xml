@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">ObdRead</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titulo">Obd Read</string>
+    <string name="Mconduccion">Modo conducción</string>
+     <string name="Mtutor">Modo tutor</string>
+    <string name="Graficos">Gráficos</string>
+    <string name="Rutas">Rutas</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="Salir">Salir</string>
+    <string name="acercaDe">Aplicación realizada como PFC. Para su correcto funcionamiento se necesita un conector ELM327 con Bluetooth</string>
+    <string name="getdata">Cogiendo datos del vehículo</string> 
+	 <string name="bt_not_enabled_leaving">Bluetooth no fue activado. Abandonando la conversación bluetooth.</string>
+
+
+
+  <!--  Lista Dispositivos -->
+    <string name="scanning">Buscando Dispositivos</string>
+    <string name="select_device">Selecciona un dispositivo</string>
+    <string name="none_paired">No hay dispositivos emparejados</string>
+    <string name="none_found">No se encuentraro dispositivos</string>
+    <string name="title_dispositivos_emparejados">Dispositivos emparejados</string>
+    <string name="title_otros_dispositivos">Otros dispositivos</string>
+    <string name="button_scan">Buscar dispositivos</string>
+    
+  <!-- Options Menu -->
+    <string name="secure_connect">Conectar OBD-II Adapter</string>
+    <string name="insecure_connect">Conectar dispositivos - no seguro</string>
+    <string name="discoverable">Hacer visible</string>
+    <string name="DBT">Borrar Trouble Codes</string>
+    <string name="ConsultarDBT">Consultar Trouble Codes</string>
+    <string name="ComenzarT">Comenzar transmisión</string>
+    <string name="Seleccionar_Diesel">Motor Diesel</string>
+    <string name="Seleccionar_Gasolina">Motor Gasolina</string>
+    
+    
+    <string name="developedby">Desarrollado por Juan Cristóbal Peiando</string>
+    
+    
+    <!--  Modo Crucero -->
+    <string name="send">Enviar</string>
+    <string name="not_connected">No está conectado a un dispositivo</string>
+    <string name="title_connecting">Conectando</string>
+    <string name="title_connected_to">Conectado a <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">No conectado</string>
+    <string name="cero">0</string>
+    <string name="temperatura">Temp:</string>
+    <string name="fuel">Fuel:</string>
+    
+    <!-- Graficos -->
+    <string name="rpm">RPM</string>
+    <string name="kph">KPH</string>
+    <string name="gas">Fuel</string>
+    <string name="temp">Temp</string>
+    <string name="fuelrate">L/h:</string>
+    <string name="load">E. load:</string>
+    <string name="aceleracion">Acc:</string>
+    
+    
+    <!-- Tutor -->
+     <string name="aceleracion2">Acceleración:</string>
+     <string name="Eficiencia">Eficiencia:</string>
+     <string name="velocidad">Velocidad:</string>
+     
+     <!-- Nombres imagenes -->
+     <string name="logoVertical">logoV</string>
+     <string name="logoHorizontal">logoH</string>
+     <string name="agujaRPM">agujaRPM</string>
+     <string name="agujaKPH">agujaKPH</string>
+     <string name="agujaFuel">agujaFuel</string>
+     <string name="agujaTemp">agujaTemp</string>
+     
+     <!-- Mapas -->
+     <string name="inicio">Ir a Inicio</string>
+     <string name="fin">Ir a Fin</string>
+     <string name="efimedia">Mostrar eficiencia media</string>
+    
+
+
+</resources>

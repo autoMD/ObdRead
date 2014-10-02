@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    
+     <style name="barraHorizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">100dip</item>
+        <!-- <item name="android:background">#000000</item>     -->
+        
+    </style>
+   
+    
+     <style name="layout_tutor">
+         <item name="android:text">@string/cero</item>
+         <item name="android:textColor">@color/Color_blanco</item>
+         <item name="android:textSize">20sp</item>
+     </style>
+        
+ <!-- Colores predefinidos. -->        
+<color name="Color_blanco">#FFFFFF</color>
+<color name="Color_negro">#000000</color>
+<color name="Color_gris">#808080</color>
+<color name="Color_verde">#00CC00</color>
+<color name="Color_rojo">#FF0000</color>
+<color name="Color_naranja">#FF6000</color>
+
+
+
+</resources>

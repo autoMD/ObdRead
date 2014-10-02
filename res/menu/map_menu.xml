@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <item android:id="@+id/Inicio" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="@string/inicio"></item>
+    
+     <item android:id="@+id/Fin" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="@string/fin"></item>
+     
+      <item android:id="@+id/EficienciaMedia" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="@string/efimedia"></item>
+    
+    
+</menu>

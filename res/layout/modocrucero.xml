@@ -1,0 +1,197 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ModoCrucero" >
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="306dp"
+        android:layout_y="43dp"
+        android:contentDescription="@string/agujaFuel"
+        android:src="@drawable/indicador4" />
+
+    <TextView
+        android:id="@+id/RPMView"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="191dp"
+        android:text="@string/cero"
+        android:textColor="@color/Color_negro"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KMHView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_x="413dp"
+        android:layout_y="190dp"
+        android:text="@string/cero"
+        android:textColor="@color/Color_negro"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="2dp"
+        android:text="@string/getdata" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_x="77dp"
+        android:layout_y="81dp"
+        android:contentDescription="@string/agujaRPM"
+        android:src="@drawable/indicador" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_x="398dp"
+        android:layout_y="80dp"
+        android:contentDescription="@string/agujaKPH"
+        android:src="@drawable/indicador" />
+
+    <TableLayout
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="88dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/intakeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temperatura"
+                android:textColor="@color/Color_blanco" />
+
+            <TextView
+                android:id="@+id/intakeView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cero"
+                android:textColor="@color/Color_blanco" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fuelText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fuel"
+                android:textColor="@color/Color_blanco" />
+
+            <TextView
+                android:id="@+id/fuelView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cero"
+                android:textColor="@color/Color_blanco" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fuelRateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fuelrate"
+                android:textColor="@color/Color_blanco" />
+
+            <TextView
+                android:id="@+id/fuelrateView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cero"
+                android:textColor="@color/Color_blanco" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/LoadText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/load"
+                android:textColor="@color/Color_blanco" />
+
+            <TextView
+                android:id="@+id/loadView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cero"
+                android:textColor="@color/Color_blanco" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aceleracion"
+                android:textColor="@color/Color_blanco" />
+
+            <TextView
+                android:id="@+id/acceleracionView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cero"
+                android:textColor="@color/Color_blanco" />
+        </TableRow>
+    </TableLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="@style/barraHorizontal"
+        android:layout_width="98dp"
+        android:layout_height="17dp"
+        android:layout_x="236dp"
+        android:layout_y="194dp"
+        android:max="100"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="40dp"
+        android:contentDescription="@string/agujaTemp"
+        android:src="@drawable/indicador4" />
+
+</AbsoluteLayout>

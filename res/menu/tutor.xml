@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/SeleccionarDiesel"
+          android:title="@string/Seleccionar_Diesel"
+           android:icon="@android:drawable/ic_menu_preferences"  />
+      
+       <item android:id="@+id/SeleccionarGasolina"
+          android:title="@string/Seleccionar_Gasolina"
+           android:icon="@android:drawable/ic_menu_preferences"  />
+        
+    <item android:id="@+id/secure_connect_scan"
+          android:title="@string/secure_connect"
+          android:showAsAction="ifRoom|withText" />
+    
+     <item android:id="@+id/ConsultarDBT"
+          android:title="@string/ConsultarDBT"
+           android:icon="@android:drawable/ic_menu_preferences"  />
+     
+     <item android:id="@+id/DTB" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="@string/DBT"></item>
+     
+     <item android:id="@+id/ComenzarTrans"
+          android:title="@string/ComenzarT"
+           android:icon="@android:drawable/ic_menu_preferences"  />
+     
+     <item android:id="@+id/acercaDe" 
+        android:title="@string/AcercaDe" 
+        android:icon="@android:drawable/ic_menu_info_details"></item>
+     
+    
+   
+    
+</menu>

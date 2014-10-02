@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/MostrarRPM" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráfico RPM"></item>
+    
+     <item android:id="@+id/MostrarKPH" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráfico Kph"></item>
+     
+      <item android:id="@+id/MostrarTemp" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráfico Temperatura"></item>
+      
+       <item android:id="@+id/MostrarFuel" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráf. nivel de fuel"></item>
+       
+        <item android:id="@+id/MostrarFuelRate" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráfico Fuel rate"></item>
+        
+         <item android:id="@+id/MostrarAcc" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráfico Acceleración"></item>
+         
+          <item android:id="@+id/MostrarThrotle" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráf. posicion acelerador"></item>
+          
+           <item android:id="@+id/MostrarLoad" 
+        android:icon="@android:drawable/ic_menu_preferences" 
+        android:title="Gráf. load engine"></item>
+    
+    <item android:id="@+id/acercaDe" 
+        android:title="Acerca de" 
+        android:icon="@android:drawable/ic_menu_info_details"></item>
+    
+    <item android:id="@+id/secure_connect_scan"
+          android:title="@string/secure_connect"
+          android:showAsAction="ifRoom|withText" />
+
+</menu>

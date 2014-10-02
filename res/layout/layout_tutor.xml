@@ -1,0 +1,172 @@
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/Color_negro"
+    android:columnCount="3"
+    android:columnOrderPreserved="false"
+    android:rowCount="3"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="false" >
+
+    <ListView
+        android:id="@+id/in2"
+        android:layout_width="112dp"
+        android:layout_height="17dp"
+        android:layout_gravity="fill_horizontal"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="113dp"
+        android:layout_height="222dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:background="@drawable/borde"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/eficienciaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Eficiencia"
+            android:textColor="@color/Color_blanco"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eficienciaView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="@string/cero"
+            android:textColor="@color/Color_blanco"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fuelRateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/velocidad"
+            android:textColor="@color/Color_blanco"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/velocidadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:text="@string/cero"
+            android:textColor="@color/Color_blanco"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:background="@drawable/borde" >
+
+       <com.example.obdread.GforceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="77dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:background="@drawable/borde"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aceleracion2"
+            android:textColor="@color/Color_blanco"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/acelView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/cero"
+            android:textColor="@color/Color_blanco"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+     <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_columnSpan="3"
+         android:layout_row="2"
+         android:background="@drawable/borde" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/RPMView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/cero"
+                android:textColor="@color/Color_blanco"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="@style/barraHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_weight="1"
+                android:max="5000"
+                android:visibility="visible" />
+
+        </TableRow>
+    </TableLayout>
+
+     <TextView
+         android:id="@+id/gearView"
+         android:layout_width="264dp"
+         android:layout_height="222dp"
+         android:layout_column="1"
+         android:layout_gravity="center"
+         android:layout_row="0"
+         android:layout_rowSpan="2"
+         android:background="@drawable/borde"
+         android:gravity="center"
+         android:text="@string/cero"
+         android:textColor="@color/Color_blanco"
+         android:textSize="120sp" />
+
+</GridLayout>
